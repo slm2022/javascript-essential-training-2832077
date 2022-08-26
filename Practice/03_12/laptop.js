@@ -53,18 +53,3 @@ class Laptop {
 }
 
 export default Laptop;
-
-const myLaptop = new Laptop(
-  "My Lenovo Laptop",
-  "Black",
-  "5lbs",
-  "True",
-  "Lenovo",
-  "15in",
-  "4k",
-  38,
-  "Red",
-  "ENG"
-);
-
-console.log("My laptop Info:", myLaptop);
