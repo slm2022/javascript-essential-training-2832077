@@ -10,6 +10,7 @@
 class Laptop {
   constructor(
     // Defines parameters:
+    name,
     color,
     weight,
     boughtNew,
@@ -21,6 +22,7 @@ class Laptop {
     keyboardLanguage
   ) {
     // Define properties:
+    this.name = name;
     this.color = color;
     this.weight = weight;
     this.boughtNew = boughtNew;
